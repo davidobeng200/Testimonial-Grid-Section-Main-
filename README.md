@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/davidobeng200/Testimonial-Grid-Section-Main-.git)
 - Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process
@@ -44,8 +44,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - []DAVID OBENG ADJEI(https://www.your-site.com)
+- Frontend Mentor - [@davidobeng200](https://www.frontendmentor.io/profile/davidobeng200)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
