@@ -103,7 +103,7 @@ body{
 .item4 .bottom-quote
 {
     font-size: 0.9rem;
-    color: hsl(219, 29%, 14%);
+    color: hsl(224, 10%, 45%);
 }
 
 footer{
@@ -134,4 +134,5 @@ footer{
         "item4"
         "item5";
     }
+
 }
