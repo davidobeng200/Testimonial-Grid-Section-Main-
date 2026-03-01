@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: hsl(214, 17%, 92%);
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed";
+}
+
+.testimonials-grid-main{
+    display: grid;
+    grid-template-areas: "item1 item1 item2 item3" "item4 item5 item5 item3";
+    grid-auto-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1rem;
+    max-width: 1440px;
+}
+
+.item{
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px hsl(0, 0%, 81%);
+}
+
+.item1{
+    grid-area: item1;
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    position: relative;
+}
+
+.item1 .quote-icon{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    z-index: 0;
+}
+
+.item1 .top-quote{
+    position: relative;
+    z-index: 1;
+}
+
+.item2{
+    grid-area: item2;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.item3{
+    grid-area: item3;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.item4{
+    grid-area: item4;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.item5{
+    grid-area: item5;
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.person img{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.top-quote{
+    margin: 1.3rem 0 1.3rem 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.item1 .bottom-quote,
+.item2 .bottom-quote,
+.item5 .bottom-quote
+{
+    font-size: 0.9rem;
+    color: hsl(214, 17%, 92%);
+}
+
+.item3 .bottom-quote,
+.item4 .bottom-quote
+{
+    font-size: 0.9rem;
+    color: hsl(219, 29%, 14%);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .testimonials-grid-main{
+        grid-template-areas: 
+        "item1 item1 item2 item2"
+        "item3 item3 item4 item4"
+        "item5 item5 item5 item5";
+    }
+
+    .item1 .quote-icon{
+        position: absolute;
+        right: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .testimonials-grid-main{
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5";
+    }
+}
