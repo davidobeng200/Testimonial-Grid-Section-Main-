@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/davidobeng200/Testimonial-Grid-Section-Main-.git)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://davidobeng200.github.io/Testimonial-Grid-Section-Main-/)
 
 ## My process
 
@@ -44,7 +44,7 @@ Users should be able to:
 
 ## Author
 
-- Website - []DAVID OBENG ADJEI(https://www.your-site.com)
+- Website - []DAVID OBENG ADJEI(https://davidobeng200.github.io/Testimonial-Grid-Section-Main-/)
 - Frontend Mentor - [@davidobeng200](https://www.frontendmentor.io/profile/davidobeng200)
 
 
